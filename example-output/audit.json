@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "input_sha256": "81c5421b917099c4b17ee16ac9ac126cd061a0fbaaa92086052ce0a048cd395d",
+  "columns": [
+    "SKU",
+    "Name",
+    "Notes",
+    "Quantity",
+    "Date"
+  ],
+  "record_count": 10,
+  "trim_column": "Name",
+  "empty_fields": {
+    "original": {
+      "total": 8,
+      "by_column": {
+        "SKU": 0,
+        "Name": 0,
+        "Notes": 0,
+        "Quantity": 1,
+        "Date": 7
+      }
+    },
+    "output": {
+      "total": 9,
+      "by_column": {
+        "SKU": 0,
+        "Name": 1,
+        "Notes": 0,
+        "Quantity": 1,
+        "Date": 7
+      }
+    }
+  },
+  "exact_duplicate_input_groups": [
+    {
+      "record_numbers": [
+        1,
+        4
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "record_number": 1,
+      "column": "Name",
+      "before": "  Widget A  ",
+      "after": "Widget A"
+    },
+    {
+      "record_number": 2,
+      "column": "Name",
+      "before": " Zero Code ",
+      "after": "Zero Code"
+    },
+    {
+      "record_number": 4,
+      "column": "Name",
+      "before": "  Widget A  ",
+      "after": "Widget A"
+    },
+    {
+      "record_number": 5,
+      "column": "Name",
+      "before": "   ",
+      "after": ""
+    }
+  ],
+  "spreadsheet_warning": "Output preserves untrusted spreadsheet values. Formula-like prefixes are reported, not escaped; this is not a spreadsheet-safe export.",
+  "formula_like_values": [
+    {
+      "record_number": 6,
+      "column": "Notes",
+      "original_prefix": "=",
+      "output_prefix": "="
+    },
+    {
+      "record_number": 7,
+      "column": "Notes",
+      "original_prefix": "+",
+      "output_prefix": "+"
+    },
+    {
+      "record_number": 8,
+      "column": "Notes",
+      "original_prefix": "-",
+      "output_prefix": "-"
+    },
+    {
+      "record_number": 9,
+      "column": "Notes",
+      "original_prefix": "@",
+      "output_prefix": "@"
+    },
+    {
+      "record_number": 10,
+      "column": "Notes",
+      "original_prefix": "\t",
+      "output_prefix": "\t"
+    }
+  ]
+}
