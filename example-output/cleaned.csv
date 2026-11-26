@@ -1,0 +1,12 @@
+SKU,Name,Notes,Quantity,Date
+00123,Widget A,"contains, comma",0,03/04/2026
+00000,Zero Code,"He said ""hello""",,
+00456,Multiline,"line one
+line two",2,2026-11-26
+00123,Widget A,"contains, comma",0,03/04/2026
+00999,,plain,0,
+00777,Formula sample,=1+1,1,
+00778,Plus sample,+SUM(A1:A2),1,
+00779,Minus sample,-1,1,
+00780,At sample,@example,1,
+00781,Tab sample,	=1+1,1,
